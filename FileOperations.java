@@ -36,9 +36,7 @@ public class FileOperations {
         }
     }
 
-    /**
-     * Reads the contents of the text file and displays them to the console.
-     */
+    //Reads the contents of the text file and displays them to the console.
     private static void readFile() {
         try {
             FileReader fileReader = new FileReader(FILE_PATH);
@@ -57,9 +55,7 @@ public class FileOperations {
         }
     }
 
-    /**
-     * Prompts the user to enter text and writes it to the text file.
-     */
+     //Prompts the user to enter text and writes it to the text file.
     private static void writeToFile() {
         try {
             FileWriter fileWriter = new FileWriter(FILE_PATH, true); // true for appending
@@ -78,9 +74,7 @@ public class FileOperations {
         }
     }
 
-    /**
-     * Prompts the user to enter new text and replaces the contents of the file with the new text.
-     */
+     // Prompts the user to enter new text and replaces the contents of the file with the new text.
     private static void modifyFile() {
         try {
             FileWriter fileWriter = new FileWriter(FILE_PATH);
